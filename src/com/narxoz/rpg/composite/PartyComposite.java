@@ -6,8 +6,7 @@ public class PartyComposite implements CombatNode {
     private final String name;
     private final List<CombatNode> children = new ArrayList<>();
     public PartyComposite(String name) {
-        this.name = name;
-    }
+        this.name = name;}
     public void add(CombatNode node) {
         children.add(node);
     }
