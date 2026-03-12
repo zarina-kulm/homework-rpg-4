@@ -71,8 +71,7 @@ public class PartyComposite implements CombatNode {
         List<CombatNode> alive = new ArrayList<>();
         for (CombatNode node : children) {
             if (node.isAlive()) {
-                alive.add(node);
-            }
+                alive.add(node);}
         }
         return alive;
     }
