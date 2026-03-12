@@ -12,8 +12,7 @@ public class PartyComposite implements CombatNode {
         children.add(node);
     }
     public void remove(CombatNode node) {
-        children.remove(node);
-    }
+        children.remove(node);}
     @Override
     public String getName() {
         return name;
