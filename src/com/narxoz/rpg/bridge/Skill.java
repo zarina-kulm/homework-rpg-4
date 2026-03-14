@@ -1,4 +1,5 @@
 package com.narxoz.rpg.bridge;
+
 import com.narxoz.rpg.composite.CombatNode;
 public abstract class Skill {
     private final String skillName;

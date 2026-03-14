@@ -42,4 +42,13 @@ java -cp out com.narxoz.rpg.Main
 - UML diagrams (2)
 - Clear console output from demo
 
+### Composite 
+![Composite](Diagram/Composite.png)
+
+### Bridge
+![Bridge](Diagram/Bridge.png)
+
+## Ссылка на код
+https://github.com/zarina-kulm/homework-rpg-4
+
 Read `ASSIGNMENT.md` for full instructions and rubric.

@@ -7,8 +7,8 @@ public class AreaSkill extends Skill {
     @Override
     public void cast(CombatNode target) {
         if (target == null || !target.isAlive()) {
-            return;
-        }
+            return;}
+
         int damage = resolvedDamage();
         target.takeDamage(damage);
         System.out.println(getSkillName() + " [" + getEffectName() + "] hits area of " + target.getName() + " for " + damage + " damage");

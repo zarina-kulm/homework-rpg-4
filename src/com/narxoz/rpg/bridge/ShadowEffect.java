@@ -1,4 +1,5 @@
 package com.narxoz.rpg.bridge;
+
 public class ShadowEffect implements EffectImplementor {
     @Override
     public int computeDamage(int basePower) {
